@@ -320,6 +320,10 @@ nav .close-icon {
     text-align: center;
 }
 
+.music {
+    margin-top: 15px;
+}
+
 .servicos .container>p {
     text-align: center;
 }
@@ -349,14 +353,8 @@ nav .close-icon {
     color: white;
 }
 
-.servicos .row-card-item img {
-    background-color: #4f9cf9;
-    border-radius: 14px;
-    width: 70px;
-    padding: 9px;
-}
-
 .servicos .row-card-item p.nome-servico {
+    text-align: center;
     margin: 5px;
     transition: .3s;
 }
@@ -503,6 +501,11 @@ nav .close-icon {
     height: 47px;
     border-radius: 0px 9px 9px 0px;
     cursor: pointer;
+    transition-duration: .4s;
+}
+
+#btnSearch:hover {
+    background-color: #4f9cf9;
 }
 
 /*end pagina*/
